@@ -1,0 +1,20 @@
+{
+  "navLinks": [
+    {
+      "id": "services",
+      "title": "Services"
+    },
+    {
+      "id": "about",
+      "title": "About us"
+    },
+    {
+      "id": "partners",
+      "title": "Partners"
+    },
+    {
+      "id": "contact",
+      "title": "Contact"
+    }
+  ]
+}
