@@ -12,7 +12,9 @@ const App = () => {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch(`src/constants/languages/${language}.json`);
+        const response = await fetch(
+          `src/constants/languages/${language}.json`
+        );
         const jsonData = await response.json();
         setData(jsonData);
       } catch (error) {
@@ -24,13 +26,11 @@ const App = () => {
 
   return (
     <div className={` bg-neutral-900 text-white `}>
-      <div className='bg-hero-section bg-cover'>
-        <div className='mx-auto max-w-screen-lg'>
-          <Header />
-          <Hero />
-        </div>
+      <div className="bg-hero-section bg-cover">
+        <Header />
+        <Hero />
       </div>
-      <div className=' mx-auto max-w-[1280px]'>
+      <div className=" mx-auto max-w-[1280px]">
         <Content />
         <Footer />
       </div>
