@@ -1,16 +1,16 @@
 import React from "react";
 import styles from "../../style";
+import { useTranslation } from "react-i18next";
 
 const AboutUs = () => {
+  const { t } = useTranslation();
   return (
-    <div className='text-center py-8 lg:py-16 px-4 mx-auto max-w-screen-md'>
-      <h2 className={`${styles.heading}`}>About Us</h2>
-      <p className={`${styles.paragraph} ${styles.textPadding}`}>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam rem fugiat ut eos porro at,
-        explicabo architecto nemo assumenda! Quasi rerum dignissimos aliquid autem ducimus ipsam
-        odio iste nostrum sed?
-      </p>
-    </div>
+    <section id='about' className={`${styles.sections} `}>
+      <div className='bg-neutral-700 rounded-lg p-5'>
+        <h2 className={`${styles.heading}`}>{t("aboutTitle")}</h2>
+        <p className={`${styles.paragraph} ${styles.textPadding}`}>{t("aboutDescr")}</p>
+      </div>
+    </section>
   );
 };
 

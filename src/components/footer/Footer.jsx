@@ -1,23 +1,24 @@
 import React from "react";
 import { logo } from "../../assets";
 import styles from "../../style";
+import { useTranslation } from "react-i18next";
+import NavLinksFooter from "../content/Ui/NavLinksFooter";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
-    <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md flex justify-center flex-col items-center">
-      <div
-        className={`flex justify-center gap-6 mb-4 text-white ${styles.paragraphNormal}`}
-      >
-        <p>Home</p>
-        <p>Services</p>
-        <p>About Us</p>
-        <p>Contact</p>
+    <footer className='py-8 lg:py-16 px-4 mx-auto max-w-screen-md flex justify-center flex-col text-white border-t-2 border-white items-center '>
+      <div className={`flex flex-wrap justify-center gap-6 mb-4  ${styles.paragraphNormal}`}>
+        {t("navLinks", { returnObjects: true }).map((link) => (
+          <NavLinksFooter key={link.title} title={link.title} path={link.path} />
+        ))}
       </div>
       <p className={`${styles.paragraph} text-neutral-200`}>
         © 2023 Model Pro. All rights reserved
       </p>
-      <img className=" w-36" src={logo} alt="" />
-    </div>
+      <img className='w-[300px] mt-10' src={logo} alt='' />
+    </footer>
   );
 };
 

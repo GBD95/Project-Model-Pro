@@ -1,19 +1,24 @@
 const styles = {
-  heading: "font-inter mb-4 text-4xl tracking-tight font-extrabold text-center text-white",
+  heading: "font-inter mb-4 mt-20 text-4xl tracking-tight font-extrabold text-center text-white",
   paragraphNormal:
-    "font-inter mb-8 lg:mb-16 text-center sm:text-xl font-normal text-dimWhite text-base leading-loose",
+    "font-inter text-center sm:text-xl font-normal text-dimWhite text-base leading-loose",
 
-  navLinks: "font-inter font-light xs:text-base xs:font-bold",
+  sections: "text-center mx-auto max-w-screen-lg p-6",
 
-  title: "font-inter mb-4 text-4xl tracking-tight font-extrabold text-center",
+  navLinks:
+    "font-inter font-normal flex justify-center items-center hover:text-secondary hover:border-b-2 border-secondary xs:text-base xs:font-bold",
+  navLinksMobile: "flex justify-start p-2 font-inter font-normal border-b-2 border-neutral-500",
+
+  title: "font-inter mb-4  text-4xl tracking-tight font-extrabold text-center",
   paragraph: "font-inter font-light text-base xs:text-lg",
   textPadding: "mb-4 xs:mb-8 sm:mb-16",
 
-  serviceTitle: "font-inter mb-4 lg:mb-8 font-bold text-center sm:text-xl",
-  serviceDescription: "font-inter font-light text-base text-white text-center sm:text-xl",
+  serviceTitle: "font-inter font-bold text-center p-2 sm:text-lg",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
+
+  partnersImages: "w-1/2 md:w-1/4 mb-6",
 
   paddingX: "sm:px-16 px-6",
   paddingY: "sm:py-16 py-6",

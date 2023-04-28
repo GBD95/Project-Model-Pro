@@ -1,16 +1,13 @@
 import React from "react";
 import styles from "../../../style";
 
-const ServiceCards = () => {
+const ServiceCards = (props) => {
   return (
-    <div className=' w-60 bg-neutral-700 flex flex-col gap-4 justify-center items-center rounded-lg border border-natural-30'>
-      <img className=' rounded-md' src='src\assets\images\websiteplanet-dummy-400X400.png' alt='' />
-
-      <div className='pb-4'>
-        <h3 className={`${styles.serviceTitle}`}>Service1</h3>
-        <p className={`${styles.serviceDescription}`}>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad libero odio beatae at
-        </p>
+    <div
+      className={`w-[250px] h-[375px] bg-neutral-700 flex gap-4 justify-center items-end rounded-lg hover:cursor-pointer ${props.background}`}
+    >
+      <div className='w-full bg-opacity-70 h-24 bg-neutral-900 flex justify-center items-center'>
+        <h3 className={`${styles.serviceTitle} p-2 uppercase`}>{props.title}</h3>
       </div>
     </div>
   );

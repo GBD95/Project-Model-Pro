@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import { useTranslation } from "react-i18next";
 
 const EmailForm = () => {
+  const { t } = useTranslation();
+
   const [emailData, setEmailData] = useState({
     subject: "",
     fromEmail: "",
@@ -33,40 +36,53 @@ const EmailForm = () => {
   };
 
   return (
-    <>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Subject:
+    <div className='w-full'>
+      <form
+        onSubmit={handleSubmit}
+        className='flex-col justify-center align-middle w-full p-6 inline-block'
+      >
+        <label className='flex-col mb-4 text-neutral-400 block'>
+          <h3>Email</h3>
           <input
-            type="text"
-            name="subject"
-            value={emailData.subject}
-            onChange={handleChange}
-            required
-          />
-        </label>
-        <label>
-          Email:
-          <input
-            type="email"
-            name="fromEmail"
+            className='bg-neutral-700 rounded-sm p-2 w-full text-xs block'
+            type='email'
+            name='fromEmail'
+            placeholder={t("emailPlaceholder")}
             value={emailData.fromEmail}
             onChange={handleChange}
             required
           />
         </label>
-        <label>
-          Message:
+        <label className='flex-col mb-4 text-neutral-400 block'>
+          <h3>{t("subject")}</h3>
+          <input
+            className='  bg-neutral-700 rounded-sm p-2 w-full text-xs block'
+            placeholder={t("subject")}
+            type='text'
+            name='subject'
+            value={emailData.subject}
+            onChange={handleChange}
+            required
+          />
+        </label>
+        <label className='flex-col mb-4 text-neutral-400 block'>
+          <h3>{t("message")}</h3>
           <textarea
-            name="message"
+            className=' bg-neutral-700 rounded-sm p-2 w-full text-xs h-40 block'
+            placeholder={t("messagePlaceholder")}
+            name='message'
             value={emailData.message}
             onChange={handleChange}
             required
           />
         </label>
-        <button type="submit">Send</button>
+        <div className='flex justify-end'>
+          <button className=' bg-secondary rounded-md px-6 py-3 m-auto' type='submit'>
+            {t("btnForm")}
+          </button>
+        </div>
       </form>
-    </>
+    </div>
   );
 };
 

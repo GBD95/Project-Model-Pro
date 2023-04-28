@@ -21,7 +21,12 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
       },
       backgroundImage: {
-        "hero-section": "url('src/assets/images/websiteplanet-dummy-1280X720.webp')",
+        "hero-section": "url('/src/assets/images/hero-section-img.webp')",
+        "service-0": "url('/src/assets/images/service-prototyping.webp')",
+        "service-1": "url('/src/assets/images/service-parts-from-composite-materials.webp')",
+        "service-2": "url('/src/assets/images/service-models-tools.webp')",
+        "service-3": "url('/src/assets/images/services-small-series.webp')",
+        "service-4": "url('/src/assets/images/service-thermo-vacuum.webp')",
       },
     },
   },
