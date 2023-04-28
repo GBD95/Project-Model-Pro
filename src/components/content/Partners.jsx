@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../../style";
 import { useTranslation } from "react-i18next";
+import { osiride, sigit, tervo, yugoimport } from "../../assets";
 
 const Partners = () => {
   const { t } = useTranslation();
@@ -12,24 +13,24 @@ const Partners = () => {
         <div className='flex flex-wrap gap-4 justify-center'>
           <img
             className={`${styles.partnersImages} min-w-[300px]`}
-            src='src\assets\images\logo_sigit_top.png'
-            alt=''
+            src={`${sigit}`}
+            alt='Logo of a partner company named Sigit'
           />
           <img
             className={`${styles.partnersImages}`}
-            src='src\assets\images\yugoimport-logo.svg'
-            alt=''
+            src={`${yugoimport}`}
+            alt='Logo of a partner company named Yugoimport'
           />
 
           <img
             className={`${styles.partnersImages}`}
-            src='src\assets\images\logo_temp.png'
-            alt=''
+            src={`${osiride}`}
+            alt='Logo of a partner company named Becchis Osiride'
           />
           <img
             className={`${styles.partnersImages}`}
-            src='src\assets\images\zastava-tervo.svg'
-            alt=''
+            src={`${tervo}`}
+            alt='Logo of a partner company named Zastava Tervo'
           />
         </div>
       </div>
