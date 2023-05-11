@@ -18,7 +18,7 @@ const LanguageSwitcher = () => {
         <img
           className='rounded-full w-8 md:w-6 md:rounded-none'
           src={`${flagRs}`}
-          alt=''
+          alt='Flag of Republic of Serbia'
           onClick={handleLanguageChange}
           data-value='sr'
         />
@@ -33,7 +33,7 @@ const LanguageSwitcher = () => {
         <img
           className='rounded-full w-8 md:w-6 md:rounded-none'
           src={`${flagGb}`}
-          alt=''
+          alt='Flag of United Kingdom'
           onClick={handleLanguageChange}
           data-value='en'
         />

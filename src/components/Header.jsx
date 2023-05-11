@@ -17,7 +17,7 @@ const Header = (props) => {
       className={`${styles.paragraphNormal} p-6 border-b-2 bg-neutral-800 sticky top-0`}
     >
       <div className={`flex justify-between items-center mx-auto max-w-screen-lg`}>
-        <img className=' h-5 w-auto xs:h-6 md:h-7' src={`${logo}`} alt='' />
+        <img className=' h-5 w-auto xs:h-6 md:h-7' src={`${logo}`} alt='Logo of ModelPro company' />
         <nav className='flex gap-20'>
           <button
             className='md:hidden flex'

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../style";
 import { useTranslation } from "react-i18next";
-import { osiride, sigit, tervo, yugoimport } from "../../assets";
+import { tervo, yugoimport } from "../../assets";
 import sigitUrl from "/src/assets/images/logo_sigit_top.png";
 import osirideUrl from "/src/assets/images/logo_temp.png";
 
