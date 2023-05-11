@@ -60,7 +60,7 @@ export const sr = {
     adress1: "Branka Paraća 1",
     contactInfo: "Kontakt informacije",
     phone: "Telefon",
-    emailPlaceholder: "Vas email",
+    emailPlaceholder: "Vaš email",
     subject: "Tema",
     message: "Poruka",
     messagePlaceholder: "Vaša poruka",
