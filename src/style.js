@@ -6,7 +6,7 @@ const styles = {
   sections: "text-center mx-auto max-w-screen-lg p-6",
 
   navLinks:
-    "font-inter font-normal flex justify-center items-center hover:text-secondary hover:border-b-2 border-secondary xs:text-base xs:font-bold",
+    "font-inter font-normal flex justify-center items-center hover:text-secondary hover:border-b-2 border-secondary lg:text-base xs:text-sm xs:font-bold",
   navLinksMobile: "flex justify-start p-2 font-inter font-normal border-b-2 border-neutral-500",
 
   title: "font-inter mb-4  text-4xl tracking-tight font-extrabold text-center",

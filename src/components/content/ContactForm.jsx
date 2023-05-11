@@ -77,7 +77,10 @@ const EmailForm = () => {
           />
         </label>
         <div className='flex justify-end'>
-          <button className=' bg-secondary rounded-md px-6 py-3 m-auto' type='submit'>
+          <button
+            className=' bg-secondary text-neutral-900 rounded-md px-6 py-3 font-bold m-auto'
+            type='submit'
+          >
             {t("btnForm")}
           </button>
         </div>

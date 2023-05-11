@@ -67,7 +67,7 @@ const Header = (props) => {
             </div>
           </div>
 
-          <div className={`hidden md:flex xs:gap-2 `}>
+          <div className={`hidden md:flex xs:gap-4 `}>
             {t("navLinks", { returnObjects: true }).map((link) => (
               <NavLinks key={link.title} title={link.title} path={link.path} />
             ))}
