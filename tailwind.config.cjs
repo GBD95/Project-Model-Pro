@@ -27,6 +27,8 @@ module.exports = {
         "service-2": "url('/src/assets/images/service-models-tools.webp')",
         "service-3": "url('/src/assets/images/services-small-series.webp')",
         "service-4": "url('/src/assets/images/service-thermo-vacuum.webp')",
+        "logo-sigit": "url('/src/assets/images/logo_sigit_top.png')",
+        "logo-temp": "url('/src/assets/images/logo_temp.png')",
       },
     },
   },

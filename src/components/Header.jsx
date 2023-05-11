@@ -55,7 +55,12 @@ const Header = (props) => {
               </button>
             </div>
             {t("navLinks", { returnObjects: true }).map((link) => (
-              <NavLinksMobile key={link.title} title={link.title} path={link.path} />
+              <NavLinksMobile
+                key={link.title}
+                title={link.title}
+                path={link.path}
+                toggle={() => setToggle(!Toggle)}
+              />
             ))}
             <div className='p-2'>
               <LanguageSwitcher />

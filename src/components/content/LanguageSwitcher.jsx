@@ -7,28 +7,39 @@ const LanguageSwitcher = () => {
   const [language, setLanguage] = useState("sr");
 
   const handleLanguageChange = (event) => {
-    const newLanguage = event.target.value;
+    const newLanguage = event.currentTarget.getAttribute("data-value");
     setLanguage(newLanguage);
     i18n.changeLanguage(newLanguage);
   };
+
   return (
-    <div className='flex flex-wrap gap-4  md:border-l-2 p-2'>
-      <div className='flex gap-2'>
-        <img className=' rounded-full w-8 md:w-6 md:rounded-none' src={`${flagRs}`} alt='' />
+    <div className='flex flex-wrap gap-4 md:border-l-2 p-2'>
+      <div className='flex gap-2 cursor-pointer' onClick={handleLanguageChange} data-value='sr'>
+        <img
+          className='rounded-full w-8 md:w-6 md:rounded-none'
+          src={`${flagRs}`}
+          alt=''
+          onClick={handleLanguageChange}
+          data-value='sr'
+        />
         <button
           className={`${language === "sr" ? "text-secondary" : "text-white"} md:text-base`}
-          onClick={handleLanguageChange}
-          value={`sr`}
+          data-value='sr'
         >
           SR
         </button>
       </div>
-      <div className='flex gap-2'>
-        <img className=' rounded-full w-8 md:w-6 md:rounded-none' src={`${flagGb}`} alt='' />
+      <div className='flex gap-2 cursor-pointer' onClick={handleLanguageChange} data-value='en'>
+        <img
+          className='rounded-full w-8 md:w-6 md:rounded-none'
+          src={`${flagGb}`}
+          alt=''
+          onClick={handleLanguageChange}
+          data-value='en'
+        />
         <button
           className={`${language === "en" ? "text-secondary" : "text-white"} md:text-base`}
-          onClick={handleLanguageChange}
-          value={`en`}
+          data-value='en'
         >
           EN
         </button>

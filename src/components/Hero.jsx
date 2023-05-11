@@ -8,8 +8,12 @@ const Hero = () => {
     <section
       className={`${styles.flexCenter} flex-col  h-screen bg-hero-section bg-cover bg-center`}
     >
-      <h1 className={`${styles.heading} my-4 text-6xl sm:text-7xl`}>{t("heroTitle")}</h1>
-      <p className={`${styles.paragraphNormal} text-2xl sm:text-3xl my-4`}>{t("heroSubtitle")}</p>
+      <h1 className={`${styles.heading} my-4 px-4 text-4xl max-w-screen-lg sm:text-6xl`}>
+        {t("heroTitle")}
+      </h1>
+      <p className={`${styles.paragraphNormal} text-2xl px-4 max-w-screen-lg sm:text-3xl my-4`}>
+        {t("heroSubtitle")}
+      </p>
     </section>
   );
 };

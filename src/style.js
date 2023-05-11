@@ -18,7 +18,7 @@ const styles = {
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
 
-  partnersImages: "w-1/2 md:w-1/4 mb-6",
+  partnersImages: "aspect-auto w-min h-fit mb-6",
 
   paddingX: "sm:px-16 px-6",
   paddingY: "sm:py-16 py-6",

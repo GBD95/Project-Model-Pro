@@ -14,10 +14,10 @@ const Footer = () => {
           <NavLinksFooter key={link.title} title={link.title} path={link.path} />
         ))}
       </div>
-      <p className={`${styles.paragraph} text-neutral-200`}>
+      <p className={`${styles.paragraph} text-sm lg:text-lg text-neutral-200`}>
         © 2023 Model Pro. All rights reserved
       </p>
-      <img className='w-[300px] mt-10' src={logo} alt='' />
+      <img className='w-[250px] mt-10' src={logo} alt='' />
     </footer>
   );
 };

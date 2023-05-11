@@ -1,10 +1,11 @@
 export const sr = {
   translation: {
-    heroTitle: "Čime se bavimo?",
-    heroSubtitle: "Kako vam možemo pomoći?",
+    heroTitle: "Proizvodimo kompozitne delove i alate.",
+    heroSubtitle:
+      "Možemo vam pružiti prilagođena rešenja za vaše potrebe kompozitnih delova i alata i pružiti izvanrednu uslugu korisnicima tokom celog procesa proizvodnje.",
     navLinks: [
       {
-        title: "Pocetna",
+        title: "Početna",
         path: "#top",
       },
       {
@@ -43,20 +44,27 @@ export const sr = {
       },
     ],
     aboutTitle: "O nama",
-    aboutDescr:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam rem fugiat ut eos porro at, explicabo architecto nemo assumenda! Quasi rerum dignissimos aliquid autem ducimus ipsam odio iste nostrum sed?",
+    aboutDescr1:
+      "Kompozitni materijali postaju sve više popularni u raznim industrijama zbog njihovog odličnog odnosa snage i težine. Kao rezultat toga, mnoge kompanije su fokusirane na proizvodnju delova od kompozitnih materijala.",
+    aboutDescr2:
+      "Imamo višedecenijsko iskustvo u radu sa kompozitnim materijalima, a naš tim stručnjaka posvećen je proizvodnji visokokvalitetnih delova i alata koji zadovoljavaju jedinstvene potrebe naših klijenata. Koristimo najsavremeniju tehnologiju obrade kako bismo osigurali da su naši proizvodi najvišeg kvaliteta i preciznosti.",
+    aboutDescr3:
+      "Naš asortiman kompozitnih delova i alata uključuje sve, od jednostavnih do složenih komponenti. Blisko sarađujemo sa našim klijentima kako bismo razumeli njihove zahteve i razvili prilagođena rešenja koja zadovoljavaju njihove potrebe. Naš razvojni tim radi zajedno na kreiranju modela i prototipova koji se zatim testiraju i usavršavaju dok ne postignemo željeni rezultat.",
+    aboutDescr4:
+      "Posvećeni smo pružanju našim klijentima najbolje usluge i podrške. Blisko sarađujemo sa našim klijentima tokom celog procesa proizvodnje, obezbeđujući da se njihove potrebe ispune na svakom koraku. Naš cilj je da izgradimo dugoročne odnose sa našim klijentima pružajući im visokokvalitetne proizvode i usluge.",
     partnersTitle: "Partneri",
     contactTitle: "Kontakt",
     contactDescr:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam rem fugiat ut eos porro at,",
+      "Radujemo se što ćemo čuti od vas! Molimo vas da popunite donji obrazac sa vašim imenom, e-mail adresom i kratkom porukom, i mi ćemo vam se javiti što je prije moguće. Ako imate određeno pitanje, slobodno ga uključite u svoju poruku i mi ćemo učiniti sve da vam pružimo sve informacije. Hvala vam što ste nam se obratili!",
     adress: "Adresa",
+    adress1: "Branka Paraća 1",
     contactInfo: "Kontakt informacije",
     phone: "Telefon",
     emailPlaceholder: "Vas email",
     subject: "Tema",
     message: "Poruka",
-    messagePlaceholder: "Vasa poruka",
-    btnForm: "Posaljite Poruku",
+    messagePlaceholder: "Vaša poruka",
+    btnForm: "Pošaljite Poruku",
   },
 };
 
