@@ -1,5 +1,5 @@
 const styles = {
-  heading: "font-inter mb-4 mt-20 text-4xl tracking-tight font-extrabold text-center text-white",
+  heading: "font-inter mb-14 mt-20 text-4xl tracking-tight font-extrabold text-center text-white",
   paragraphNormal:
     "font-inter text-center sm:text-xl font-normal text-dimWhite text-base leading-loose",
 

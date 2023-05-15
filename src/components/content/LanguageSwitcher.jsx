@@ -16,7 +16,7 @@ const LanguageSwitcher = () => {
     <div className='flex flex-wrap gap-4 md:border-l-2 p-2'>
       <div className='flex gap-2 cursor-pointer' onClick={handleLanguageChange} data-value='sr'>
         <img
-          className='rounded-full w-8 md:w-6 md:rounded-none'
+          className='rounded-full w-8 md:w-6'
           src={`${flagRs}`}
           alt='Flag of Republic of Serbia'
           onClick={handleLanguageChange}
@@ -31,7 +31,7 @@ const LanguageSwitcher = () => {
       </div>
       <div className='flex gap-2 cursor-pointer' onClick={handleLanguageChange} data-value='en'>
         <img
-          className='rounded-full w-8 md:w-6 md:rounded-none'
+          className='rounded-full w-8 md:w-6'
           src={`${flagGb}`}
           alt='Flag of United Kingdom'
           onClick={handleLanguageChange}

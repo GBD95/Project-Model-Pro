@@ -1,8 +1,8 @@
 export const sr = {
   translation: {
-    heroTitle: "Proizvodimo kompozitne delove i alate.",
+    heroTitle: "Proizvodimo kompozitne delove i alate",
     heroSubtitle:
-      "Možemo vam pružiti prilagođena rešenja za vaše potrebe kompozitnih delova i alata i pružiti izvanrednu uslugu korisnicima tokom celog procesa proizvodnje.",
+      "Možemo vam pružiti prilagođena rešenja za vaše potrebe kompozitnih delova i alata i pružiti izvanrednu uslugu korisnicima tokom celog procesa proizvodnje",
     navLinks: [
       {
         title: "Početna",
@@ -55,7 +55,7 @@ export const sr = {
     partnersTitle: "Partneri",
     contactTitle: "Kontakt",
     contactDescr:
-      "Radujemo se što ćemo čuti od vas! Molimo vas da popunite donji obrazac sa vašim imenom, e-mail adresom i kratkom porukom, i mi ćemo vam se javiti što je prije moguće. Ako imate određeno pitanje, slobodno ga uključite u svoju poruku i mi ćemo učiniti sve da vam pružimo sve informacije. Hvala vam što ste nam se obratili!",
+      "Drago nam je što ćemo čuti od vas! Molimo vas da popunite donji obrazac sa vašim imenom, email adresom i kratkom porukom, i mi ćemo vam se javiti što je pre moguće. Ako imate određeno pitanje, slobodno ga uključite u svoju poruku i mi ćemo učiniti sve da vam pružimo sve informacije. Hvala vam što ste nam se obratili!",
     adress: "Adresa",
     adress1: "Branka Paraća 1",
     contactInfo: "Kontakt informacije",
@@ -67,9 +67,3 @@ export const sr = {
     btnForm: "Pošaljite Poruku",
   },
 };
-
-// protoyping,
-// izrada delova od kompozitnih materijala,
-// izrada modela i alata,
-// izrada delova malih serija,
-// izrada termo vakumskih delova i alata
